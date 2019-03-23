@@ -9,6 +9,7 @@ http://13.228.70.143.xip.io
 
 3.Software installation:
 - Python module installed inside Python virtual environment
+
 Package        Version
 -------------- --------
 certifi        2019.3.9
@@ -35,6 +36,7 @@ SQLAlchemy     1.3.1
 urllib3        1.24.1
 Werkzeug       0.15.1
 wheel          0.33.1
+
 - Software installed in local:
 python-pip/xenial-updates,now 8.1.1-2ubuntu0.4 all
 apache2/xenial-updates,now 2.4.18-2ubuntu3.9 amd64
@@ -49,11 +51,11 @@ iv. Uploaded Flask WSGI application to /var/www/flaskapp.
 v. PostgreSQL Database server added dbadmin user, configured it's DB access and authentication method in pg_hba.conf
 
 - 3rd party resource referenced:
-https://www.digitalocean.com/community/tutorials/how-to-create-remove-manage-tables-in-postgresql-on-a-cloud-server
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
-https://modwsgi.readthedocs.io/en/develop/index.html
-http://fredericiana.com/2014/11/29/sqlite-error-open-database-file/
-https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+1.https://www.digitalocean.com/community/tutorials/how-to-create-remove-manage-tables-in-postgresql-on-a-cloud-server
+2.https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+3.https://modwsgi.readthedocs.io/en/develop/index.html
+4.http://fredericiana.com/2014/11/29/sqlite-error-open-database-file/
+5.https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 
 4. SSH Key location of 'grader' user
 /home/grader/.ssh/authorized_keys
