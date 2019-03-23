@@ -1,13 +1,13 @@
 # FSND-Project3-LinuxServerConfig
 
-1.Server info:
+1. Server info:
 IP address: 13.228.70.143
 SSH port: 2200
 
-2.Hosted Web Application:
+2. Hosted Web Application:
 http://13.228.70.143.xip.io
 
-3.Software installation:
+3. Software installation:
 - Python module installed inside Python virtual environment
 ```
 Package        Version
