@@ -45,18 +45,18 @@ libapache2-mod-wsgi/xenial,now 4.3.0-1.1build1 amd64
 postgresql/xenial-updates,now 9.5+173ubuntu0.2 all
 ```
 - Configuration changes:
-i. created user "grader", added in sudoers and added SSH key-based authentication.
-ii. UFW configured to allow connections for SSH in port 2200, HTTP in port 80 and NTP in port 123.
-iii. Apache2 server added site config for WSGI Flask application.
-iv. Uploaded Flask WSGI application to /var/www/flaskapp.
-v. PostgreSQL Database server added dbadmin user, configured it's DB access and authentication method in pg_hba.conf
+  - created user "grader", added in sudoers and added SSH key-based authentication.
+  - UFW configured to allow connections for SSH in port 2200, HTTP in port 80 and NTP in port 123.
+  - Apache2 server added site config for WSGI Flask application.
+  - Uploaded Flask WSGI application to /var/www/flaskapp.
+  - PostgreSQL Database server added dbadmin user, configured it's DB access and authentication method in pg_hba.conf
 
 - 3rd party resource referenced:
-1. https://www.digitalocean.com/community/tutorials/how-to-create-remove-manage-tables-in-postgresql-on-a-cloud-server
-2. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
-3. https://modwsgi.readthedocs.io/en/develop/index.html
-4. http://fredericiana.com/2014/11/29/sqlite-error-open-database-file/
-5. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+  - https://www.digitalocean.com/community/tutorials/how-to-create-remove-manage-tables-in-postgresql-on-a-cloud-server
+  - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+  - https://modwsgi.readthedocs.io/en/develop/index.html
+  - http://fredericiana.com/2014/11/29/sqlite-error-open-database-file/
+  - https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 
 4. SSH Key location of 'grader' user
 - /home/grader/.ssh/authorized_keys
